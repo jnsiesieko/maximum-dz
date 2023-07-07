@@ -1,0 +1,11 @@
+.caption{
+    font-size: 48px;
+    text-align: center;
+}
+.text{
+    text-align: left;
+}
+*{
+    background: green;
+    color: white;
+}
