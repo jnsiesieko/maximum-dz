@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .button{
+            height: 100px;
+            width: 200px;
+            border: solid black;
+        }
+        @keyframes button {
+             0%{
+                background: white;
+             }
+             100%{
+                background: green;
+             }
+        }
+        .button:hover{
+            animation: button 0.5s ease;
+            animation-iteration-count: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="button"></div>
+</body>
+</html>
